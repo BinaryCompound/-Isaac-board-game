@@ -14,21 +14,27 @@
     }
 
     .separator {
-        width: 50%;
+        width: 355px
     }
 
     #delete {
         border: 2px solid rgba(255, 255, 255, 0);
         border-radius: 8px;
     }
-    #lengthen{
+
+    #lengthen {
         width: 100%;
     }
 
-    .description{
+    .description {
         font-size: 15px;
     }
-    .explanation{
+
+    .explanation {
         padding-top: 2px;
+    }
+
+    .btn-foreword {
+        font-size: 15px;
     }
 }
