@@ -13,9 +13,6 @@
         display: block;
     }
 
-    .separator {
-        width: 355px
-    }
 
     #delete {
         border: 2px solid rgba(255, 255, 255, 0);
@@ -54,9 +51,6 @@
         display: block;
     }
 
-    .separator {
-        width: 355px
-    }
 
     #delete {
         border: 2px solid rgba(255, 255, 255, 0);
@@ -68,7 +62,7 @@
     }
 
     .description {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .explanation {
@@ -80,8 +74,39 @@
     }
 }
 
-@media screen and (max-width:497px){
-.btn-foreword{
-    font-size: 13px;
-}
+@media screen and (max-width:687px) {
+    .foreword {
+        font-size: 20px;
+    }
+
+    .text-foreword {
+        font-size: 14px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .plots {
+        display: block;
+    }
+
+    .separator {
+        width: 100%
+    }
+
+    #delete {
+        border: 2px solid rgba(255, 255, 255, 0);
+        border-radius: 8px;
+    }
+
+    .description {
+        font-size: 13px;
+    }
+
+    .explanation {
+        padding-top: 2px;
+    }
+
+    .btn-foreword {
+        font-size: 15px;
+    }
 }

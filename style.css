@@ -102,6 +102,7 @@ html {
     color: white;
     border-radius: 4px;
     padding-left: 20px;
+    padding-right: 20px;
     padding-top: 30px;
 }
 
@@ -111,6 +112,7 @@ html {
     color: white;
     padding-top: 200px;
     padding-left: 50px;
+    padding-right: 10px;
 }
 
 .separator {
