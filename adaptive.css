@@ -38,3 +38,44 @@
         font-size: 15px;
     }
 }
+
+@media screen and (max-width:497px) {
+    .foreword {
+        font-size: 20px;
+    }
+
+    .text-foreword {
+        font-size: 14px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .plots {
+        display: block;
+    }
+
+    .separator {
+        width: 355px
+    }
+
+    #delete {
+        border: 2px solid rgba(255, 255, 255, 0);
+        border-radius: 8px;
+    }
+
+    #lengthen {
+        width: 100%;
+    }
+
+    .description {
+        font-size: 15px;
+    }
+
+    .explanation {
+        padding-top: 2px;
+    }
+
+    .btn-foreword {
+        font-size: 15px;
+    }
+}

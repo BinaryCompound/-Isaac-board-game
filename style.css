@@ -53,7 +53,7 @@ html {
     transition: all 0.5s;
     z-index: -1;
     transform: translateX(-100%);
-    
+
 }
 
 .btn-foreword:hover::before {
@@ -79,6 +79,7 @@ html {
     padding-right: 20%;
 
 }
+
 
 .compact {
     background-color: rgba(27, 27, 27, 0.244);
