@@ -181,7 +181,7 @@ html {
 
 .topnav {
     overflow: hidden;
-    background-color: #dcd1d1;
+    background-color: #8c3434eb;
     position: relative;
   }
   
@@ -198,7 +198,7 @@ html {
   }
   
   .topnav a.icon {
-    background: black;
+    background: rgb(255, 255, 255);
     display: block;
     position: absolute;
     right: 0;
@@ -211,6 +211,6 @@ html {
   }
   
   .active {
-    background-color: rgba(255, 255, 255, 0.857);
+    background-color: rgba(159, 77, 77, 0.857);
     color: rgb(0, 0, 0);
   }
