@@ -8,6 +8,11 @@ const toggleElement = () => {
     }
 };
 
+function myFunction() {
+    const links = document.getElementById("myLinks");
+    links.style.display = (links.style.display === "block") ? "none" : "block";
+  }
+  
 
 
 

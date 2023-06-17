@@ -20,12 +20,32 @@
     </div>
     <div class="main-header">
         <img src="logo.png" alt="The Binding of Isaac: Four Souls" class="logo" width="210" height="130">
-        <div class="btn">
+        <div class="topnav">
+            <a href="#" class="active">Разделы</a>
+            <div id="myLinks">
+                <a href="#andNow">А теперь...</a>
+                <a href="#startGame">Начало игры</a>
+                <a href="#start">Начало</a>
+                <a href="#playerTurn">Ход игрока</a>
+                <a href="#attack">Атака</a>
+                <a href="#slots">Слоты</a>
+                <a href="#dead">Смерть</a>
+                <a href="#barter">Бартер</a>
+                <a href="#diceRoll">Бросок кубика</a>
+                <a href="#priority">Приоритет</a>
+                <a href="#stack">Стэк</a>
+                <a href="#win">Победа</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+    <!--<div class="btn">
             <button type="button" class="btn-foreword">Персонажи</button>
             <button type="button" class="btn-foreword" onclick="toggleElement()">Посмотреть предисловие</button>
             <button type="button" class="btn-foreword">Предметы</button>
-        </div>
-    </div>
+        </div>-->
     <div class="mask">
         <div class="compact">
             <div id="showHide" style="display: none;">
@@ -80,7 +100,7 @@
             </section>
             <section>
                 <div class="andNow">
-                    <h1 id="subtitle">А теперь...</h1>
+                    <h1 id="subtitle" id="andNow">А теперь...</h1>
                     <div class="separator" id="delete"></div>
                     <p>1. Перемешайте колоды Добычи, Сокровищ и Монстров, и расположите рядом с каждой из них зону
                         сброса. Если вы играете с колодой Комнаты, сделайте то же самое для этой колоды. Разместите не
@@ -123,7 +143,8 @@
                 Бонусные души считаются вне игры, вместе с картами персонажей и стартовыми картами предметов, которые не
                 используются.</p>
         </div>
-        <h1 class="header">Начало игры</h1>
+        <h1 class="header"
+        id="startGame">Начало игры</h1>
         <div class="game-stacks">
             <div class="description">
                 <h1 style="text-align: center;">Типы карт</h1>
@@ -142,7 +163,7 @@
         </div>
 
         <div class="description">
-            <h1 id="subtitle">Начало</h1>
+            <h1 id="subtitle" id="start">Начало</h1>
             <p>1. Перед началом игры каждый игрок выбирает своего персонажа и получает начальные предметы.
                 Затем каждому
                 игроку выдается по 3 карты лута и 3 монетки.</p>
@@ -158,7 +179,7 @@
         </div>
         <div class="description">
             <div>
-                <h1 id="subtitle">Ход игрока</h1>
+                <h1 id="subtitle" id="playerTurn">Ход игрока</h1>
                 <div class="separator" id="lengthen"></div>
                 <h1>Фаза Начала</h1>
                 <p>
@@ -208,7 +229,7 @@
         </div>
         <div class="description">
             <div class="separator"></div>
-            <h1 class="subtitle">Атака</h1>
+            <h1 class="subtitle" id="attack">Атака</h1>
             <p>
                 Когда игрок объявляет атаку, перед тем, как выбрать цель, передается приоритет. Активный игрок может
                 атаковать либо верхнюю карту колоды монстров, либо одного из монстров в слоте монстров. Если игрок
@@ -233,7 +254,7 @@
         </div>
         <div class="description">
             <div class="separator"></div>
-            <h1>Заполнение слотов</h1>
+            <h1 id="slots">Заполнение слотов</h1>
             <p> Каждый слот магазина, слот монстра и слот комнаты (если вы играете с колодой комнат), должен всегда
                 содержать по крайней мере одну карту. Когда слот становится пустым, его необходимо заполнить верхней
                 картой
@@ -248,7 +269,7 @@
         </div>
         <div class="description">
             <div class="separator"></div>
-            <h1 id="subtitle">Смерть</h1>
+            <h1 id="subtitle" id="dead">Смерть</h1>
             <h1>Смерть монстра</h1>
             <p>
 
@@ -290,7 +311,7 @@
         </div>
         <div class="description">
             <div class="separator"></div>
-            <h1 id="subtitle">Бартер</h1>
+            <h1 id="subtitle" id="barter">Бартер</h1>
             <p> Four Souls - это социальная игра, и игроки призваны обмениваться ¢ и услугами друг с другом во время
                 игры.
                 Любое количество ¢ может быть обменено на практически любую услугу, но для заключения сделки всегда
@@ -313,7 +334,7 @@
         </div>
         <div class="description">
             <div class="separator"></div>
-            <h1 id="subtitle">Броски костей</h1>
+            <h1 id="subtitle" id="diceRoll">Броски костей</h1>
             <p>Во время игры игроки часто должны будут бросать кости. Все броски выполняются с использованием
                 шестигранного
                 кубика (D6), и результат броска никогда не может быть выше 6 или ниже 1. При выполнении броска кости:
@@ -331,7 +352,7 @@
         </div>
         <div class="description">
             <div class="separator"></div>
-            <h1 id="subtitle">Приоритет</h1>
+            <h1 id="subtitle" id="priority">Приоритет</h1>
 
             <p>Приоритет определяет, какой игрок может действовать в любой момент (например, сыграть карту добычи
                 или
@@ -369,7 +390,7 @@
         </div>
         <div class="description">
             <div class="separator"></div>
-            <h1 id="subtitle">Стэк</h1>
+            <h1 id="subtitle" id="stack">Стэк</h1>
             <p>Карты добычи, способности и броски не влияют на игру немедленно. Вместо этого они помещаются в стек, где
                 они
                 ждут разрешения (покидают стек и выполняют свой эффект). Стек - это важное понятие, которое определяет
@@ -406,7 +427,7 @@
         </div>
         <div class="description">
             <div class="separator"></div>
-            <h1 id="subtitle">Победа в игре: <br>
+            <h1 id="subtitle" id="win">Победа в игре: <br>
                 Победит тот, кто первым возьмет под контроль 4 души!
             </h1>
         </div>
