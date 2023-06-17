@@ -2,10 +2,16 @@ body {
     margin: 0;
     background-color: rgba(16, 15, 15, 0.94);
     cursor: auto;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 html {
     scroll-behavior: smooth;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .image {
