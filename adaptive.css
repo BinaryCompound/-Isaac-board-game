@@ -35,6 +35,9 @@
     .btn-foreword {
         font-size: 15px;
     }
+    .logo{
+        width: 280px;
+    }
 }
 
 @media screen and (max-width:497px) {
