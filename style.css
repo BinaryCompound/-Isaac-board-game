@@ -93,7 +93,6 @@ html {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    background-color: rgba(27, 27, 27, 0.244);
 }
 
 .description {
@@ -101,18 +100,16 @@ html {
     font-size: 20px;
     color: white;
     border-radius: 4px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 30px;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
-.explanation {
+.andNow {
     font-family: 'Mulish', sans-serif;
     font-size: 20px;
     color: white;
-    padding-top: 200px;
-    padding-left: 50px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .separator {
@@ -137,4 +134,38 @@ html {
 
 #subtitle {
     text-align: center;
+}
+
+.game-stacks {
+
+    margin-top: 0;
+
+}
+
+
+.card-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 8px;
+    transition: transform 1s;
+}
+
+.card:hover {
+    transform: scale(1.5);
+    filter: brightness(90%);
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
