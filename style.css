@@ -178,39 +178,61 @@ html {
 
 
 
-
 .topnav {
     overflow: hidden;
-    background-color: #8c3434eb;
+    background-color: #843f3feb;
+    border: 1px solid black;
     position: relative;
-  }
-  
-  .topnav #myLinks {
+    font-family: 'Mulish', sans-serif;
+}
+
+.topnav #myLinks {
     display: none;
-  }
-  
-  .topnav a {
+}
+
+.topnav a {
     color: rgb(0, 0, 0);
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
     display: block;
-  }
-  
-  .topnav a.icon {
+}
+
+.topnav a.icon {
     background: rgb(255, 255, 255);
     display: block;
     position: absolute;
     right: 0;
     top: 0;
-  }
-  
-  .topnav a:hover {
-    background-color: rgba(0, 0, 0, 0.857);
+}
+
+.topnav a:hover {
+    background-color: rgba(118, 118, 118, 0.857);
     color: rgb(255, 255, 255);
-  }
-  
-  .active {
+}
+
+.active {
     background-color: rgba(159, 77, 77, 0.857);
     color: rgb(0, 0, 0);
-  }
+}
+
+.BackToTop {
+    position: fixed;
+    bottom: 20px;
+    /* Регулируйте отступ от нижней границы страницы */
+    right: 20px;
+    /* Регулируйте отступ от правого края страницы */
+}
+
+.bckTop {
+    display: inline-block;
+    padding: 10px;
+    background-color: #f1f1f171;
+    color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.bckTop:hover {
+    background-color: #ddd;
+}

@@ -19,27 +19,31 @@
         <img src="https://files.vgtimes.ru/gallery/main/168884/237.jpg" alt="">
     </div>
     <div class="main-header">
-        <img src="logo.png" alt="The Binding of Isaac: Four Souls" class="logo" width="210" height="130">
-        <div class="topnav">
-            <a href="#" class="active">Разделы</a>
-            <div id="myLinks">
-                <a href="#andNow">А теперь...</a>
-                <a href="#startGame">Начало игры</a>
-                <a href="#start">Начало</a>
-                <a href="#playerTurn">Ход игрока</a>
-                <a href="#attack">Атака</a>
-                <a href="#slots">Слоты</a>
-                <a href="#dead">Смерть</a>
-                <a href="#barter">Бартер</a>
-                <a href="#diceRoll">Бросок кубика</a>
-                <a href="#priority">Приоритет</a>
-                <a href="#stack">Стэк</a>
-                <a href="#win">Победа</a>
+        <img src="logo.png" alt="The Binding of Isaac: Four Souls" class="logo" width="210" height="130" id="hide">
+        <div class="navigation-panel">
+            <div class="topnav navigation-panel">
+                <a href="javascript:void(0);" onclick="myFunction()" class="active">Разделы</a>
+                <div id="myLinks">
+                    <a href="#now">А теперь...</a>
+                    <a href="#startGame">Начало игры</a>
+                    <a href="#start">Начало</a>
+                    <a href="#playerTurn">Ход игрока</a>
+                    <a href="#attack">Атака</a>
+                    <a href="#slots">Слоты</a>
+                    <a href="#dead">Смерть</a>
+                    <a href="#barter">Бартер</a>
+                    <a href="#diceRoll">Бросок кубика</a>
+                    <a href="#priority">Приоритет</a>
+                    <a href="#stack">Стэк</a>
+                    <a href="#win">Победа</a>
+                </div>
+                
+                </a>
             </div>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
         </div>
+    </div>
+    <div class="BackToTop">
+        <a href="#hide" class="bckTop">наверх</a>
     </div>
     <!--<div class="btn">
             <button type="button" class="btn-foreword">Персонажи</button>
@@ -99,8 +103,8 @@
                 <img src="logo.png" alt="The Binding of Isaac: Four Souls" class="logo">
             </section>
             <section>
-                <div class="andNow">
-                    <h1 id="subtitle" id="andNow">А теперь...</h1>
+                <div class="andNow" id="now">
+                    <h1 id="subtitle">А теперь...</h1>
                     <div class="separator" id="delete"></div>
                     <p>1. Перемешайте колоды Добычи, Сокровищ и Монстров, и расположите рядом с каждой из них зону
                         сброса. Если вы играете с колодой Комнаты, сделайте то же самое для этой колоды. Разместите не
