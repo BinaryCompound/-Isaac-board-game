@@ -1,4 +1,4 @@
-@media screen and (max-width:400px) {
+@media screen and (max-width:480px) {
     .foreword {
         font-size: 20px;
     }
@@ -48,79 +48,3 @@
     }
 }
 
-@media screen and (max-width:497px) {
-    .foreword {
-        font-size: 20px;
-    }
-
-    .text-foreword {
-        font-size: 14px;
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    .plots {
-        display: block;
-    }
-
-
-    #delete {
-        border: 2px solid rgba(255, 255, 255, 0);
-        border-radius: 8px;
-    }
-
-    .separator {
-        width: 100%;
-        background-color: white;
-    }
-
-    .description {
-        font-size: 13px;
-    }
-
-    .explanation {
-        padding-top: 2px;
-    }
-
-    .btn-foreword {
-        font-size: 15px;
-    }
-}
-
-@media screen and (max-width:687px) {
-    .foreword {
-        font-size: 20px;
-    }
-
-    .text-foreword {
-        font-size: 14px;
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    .plots {
-        display: block;
-    }
-
-    .separator {
-        width: 100%;
-        background-color: white;
-    }
-
-    #delete {
-        border: 2px solid rgba(255, 255, 255, 0);
-        border-radius: 8px;
-    }
-
-    .description {
-        font-size: 13px;
-    }
-
-    .explanation {
-        padding-top: 2px;
-    }
-
-    .btn-foreword {
-        font-size: 15px;
-    }
-}
