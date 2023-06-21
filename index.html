@@ -22,7 +22,7 @@
         <img src="logo.png" alt="The Binding of Isaac: Four Souls" class="logo" width="210" height="130" id="hide">
         <div class="navigation-panel">
             <div class="topnav navigation-panel">
-                <a href="javascript:void(0);" onclick="myFunction()" class="active">Посмотреть разделы</a>
+                <a href="javascript:void(0);" onclick="dropDownMenu()" class="active">Посмотреть разделы</a>
                 <div id="myLinks">
                     <a href="#now">Подготовка к игре</a>
                     <a href="#startGame">Начало игры</a>
@@ -50,7 +50,7 @@
             <button type="button" class="btn-foreword">Предметы</button>
         </div>-->
     <div class="mask">
-        <div class="compact">
+        <!--<div class="compact">
             <div id="showHide" style="display: none;">
                 <div class="text-foreword">
                     <p>Это великолепная игра для 4-х игров, которая погрузит вас в мир полной алчности
@@ -80,7 +80,7 @@
                         четыре души.</p>
                 </div>
             </div>
-        </div>
+        </div>-->
         <main class="plots">
             <section>
                 <div class="description">
@@ -153,14 +153,22 @@
                 <p style="text-align: center;">Нажмите чтобы посмотреть</p>
             </div>
             <div class="card-container">
-                <img src="Cards/TreasureCardBack-220x300.png" class="card" width="110" height="150" id="reduceTheCard"
-                    alt="">
-                <img src="Cards/LootCardBack-220x300.png" class="card" width="110" height="150" id="reduceTheCard"
-                    alt="">
-                <img src="Cards/MonsterCardBack-220x300.png" class="card" width="110" height="150" id="reduceTheCard"
-                    alt="">
-                <img src="Cards/BonusSoulCardBack-220x300.png" class="card" width="110" height="150" id="reduceTheCard"
-                    alt="">
+                <a target="Сокровище" href="TreasureCard.html">
+                    <img src="Cards/TreasureCardBack-220x300.png" class="card" width="110" height="150"
+                        id="reduceTheCard" alt="">
+                </a>
+                <a target="Добыча" href="LootCard.html">
+                    <img src="Cards/LootCardBack-220x300.png" class="card" width="110" height="150" id="reduceTheCard"
+                        alt="">
+                </a>
+                <a target="Монстры" href="MonsteCard.html">
+                    <img src="Cards/MonsterCardBack-220x300.png" class="card" width="110" height="150"
+                        id="reduceTheCard" alt="">
+                </a>
+                <a target="Души" href="SoulCard.html">
+                    <img src="Cards/BonusSoulCardBack-220x300.png" class="card" width="110" height="150"
+                        id="reduceTheCard" alt="">
+                </a>
             </div>
         </div>
 
