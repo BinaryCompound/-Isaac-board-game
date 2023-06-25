@@ -33,3 +33,7 @@ body{
     background-color: rgb(128, 72, 72);
     color: white;
 }
+#compactBtn{
+    padding-left: 50px;
+    padding-right: 50px;
+}
