@@ -8,8 +8,14 @@
     .root {
         display: flex;
         justify-content: center;
+        margin: 10px;
     }
     h1{
         padding: 5px;
+    }
+    #compactBtn{
+        padding-left: 50px;
+        padding-right: 50px;
+        margin: 15px;
     }
 }
