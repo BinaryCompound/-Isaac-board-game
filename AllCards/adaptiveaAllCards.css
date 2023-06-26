@@ -1,0 +1,16 @@
+@media screen and (max-width:600px) {
+    .board-of-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        width: 512px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  .logo{
+    width: 250px;
+    height: 153px;
+  }
+}
