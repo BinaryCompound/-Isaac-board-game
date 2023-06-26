@@ -3,14 +3,19 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        
-        width: 512px;
+
+        width: 256px;
         height: auto;
         margin-left: auto;
         margin-right: auto;
     }
-  .logo{
-    width: 250px;
-    height: 153px;
-  }
-}
+
+    .logo {
+        width: 154px;
+        height: 96px;
+    }
+
+        .cardSection {
+            width: 50%;
+        }
+    }
